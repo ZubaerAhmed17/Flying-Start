@@ -1,5 +1,198 @@
 /* Add your css here */
 
-.avatar {
-  width: 300px;
+html{
+  scroll-behavior:smooth;
+}
+/* Heading text and background image */
+body {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image:url("https://wallpaperaccess.com/full/5651980.jpg");
+  height: 800px;
+  width: 100%;
+}
+/* Navigation toolbar */
+/* Positioning of toolbar */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.navbar{
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   background-color: Orgba(0, 0, 0, 0.5);
+   position: fixed;
+   right:0;
+   
+}
+.navbar ul{
+   display: flex;
+   list-style: none;
+   margin: 20px Opx;
+}
+.navbar ul li{
+  font-family: century;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: rgba(31, 31, 31, 0.5);
+  padding: 20px 20px;
+}
+.navbar ul li a{
+ text-decoration: none;
+  color: white;
+  padding: 8px 25px;
+ transition: all .5s ease;
+}
+.navbar ul li a:hover{
+  background-color: white;
+  color:black;
+  box-shadow: 0 0 10px white;
+}
+/* Home page */
+#home{
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+}
+#home::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  
+
+}
+.main{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  position:absolute;
+  top: 30%;
+
+}
+.headings{
+  color: white;
+  font-size: 3em;
+  font-family: century;
+}
+/* About me section */
+#about{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-bottom: 500px;
+  background-color: rgba(31, 31, 31, 0.5);
+/* image size for About me image */
+}
+#pic{
+  display: flex;
+}
+#pic img{
+  width: 320px;
+  height: 350px;
+  border-radius: 5px;
+  border: 7px solid white;
+}
+#intro{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  font-family: century;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding-left: 2em ;
+  color: white;
+}
+#intro h2{
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+h3{
+  padding-bottom: 1em;
+}
+/* Portfolio Section */
+
+#experience{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+  padding-bottom: 75px;
+  margin-bottom: 400px;
+  background-color: rgba(31, 31, 31, 0.5);
+}
+#exp{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  font-family: century;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding-left: 2em ;
+  color: white;
+}
+/* Image size for Programming languages images */
+.exp img{
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
+/* portfolio section */
+#portfolio{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+  padding-bottom: 365px;
+  margin-bottom: 800px;
+  background-color: rgba(31, 31, 31, 0.5);
+
+}
+/* Contact section */
+#contact{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 20px;
+  background-color: rgba(31, 31, 31, 0.5);
+
+/* Contact buttons */
+}
+.button{
+  display: flex;
+  justify-content: space-around;
+/* Button sizes */
+}
+#button img{
+  width: 100px;
+  height: 100px;
+  padding: 0.5rem;
+  margin-left: 10rem;
+/* Hover effect for buttons */
+}
+#button img:hover{
+  background-color: white;
+  color:black;
+  box-shadow: 0 0 10px white;
+
+}
+.gallery{
+  width: 100px;
+  height: 100px;
+  padding: 1rem;
+  margin-left: 1rem;
+  /* Hover effect for buttons */
+  }
+.gallery img:hover{
+  background-color: white;
+  color:black;
+  box-shadow: 0 0 10px white;
+  
 }
