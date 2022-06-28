@@ -1,5 +1,6 @@
-const btn = document.getElementById('hello-btn')
+const Logo = document.querySelectorAll("#Logo path");
 
-btn.addEventListener('click', () => {
-  window.alert('Hello world!')
-})
+for (let i = 0; i < Logo.length; i++) {
+  console.log(`Letter ${i} is ${Logo[i].getTotalLength()}`);
+  
+}

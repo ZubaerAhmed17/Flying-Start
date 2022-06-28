@@ -195,4 +195,15 @@ h3{
   color:black;
   box-shadow: 0 0 10px white;
   
+
 }
+#Logo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#Logo path:nth-child(1){
+}
+
